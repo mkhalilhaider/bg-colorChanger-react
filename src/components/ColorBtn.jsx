@@ -4,10 +4,10 @@ const ColorBtn = ({ color, onClick }) => {
       onClick={() => onClick(color)}
       style={{
         backgroundColor: color,
-        color: "whitesmoke",
+        color: "black",
         margin: "5px",
         padding: "10px",
-        border: "none",
+        border: "2px solid whitesmoke",
         borderRadius: "4px",
         cursor: "pointer",
       }}
