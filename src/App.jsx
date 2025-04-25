@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import ColorBtn from "./components/ColorBtn";
-import Author from "./components/author";
+import ColorBtn from "./components/ColorBtn.jsx";
+import CreatedBy from "./components/CreatedBy.jsx";
 
 function App() {
   const [bgColor, setBgColor] = useState("white");
@@ -24,7 +24,7 @@ function App() {
             <ColorBtn key={color} color={color} onClick={setBgColor} />
           ))}
         </div>
-        <Author/>
+        <CreatedBy />
       </div>
     </>
   );

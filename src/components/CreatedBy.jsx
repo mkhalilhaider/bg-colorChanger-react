@@ -1,6 +1,6 @@
 import React from "react";
 
-function Author() {
+function CreatedBy() {
   return (
     <marquee
       behavior="scroll"
@@ -19,4 +19,4 @@ function Author() {
   );
 }
 
-export default Author;
+export default CreatedBy;
